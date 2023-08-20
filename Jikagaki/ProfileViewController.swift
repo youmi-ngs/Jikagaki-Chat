@@ -8,7 +8,8 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-
+    var tinmer:Timer!
+    @IBOutlet weak var nametextfield: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
