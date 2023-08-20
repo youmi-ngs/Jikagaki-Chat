@@ -8,6 +8,8 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+    
+    @IBOutlet var userNameLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
