@@ -7,7 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
+    
+    @IBOutlet var toPlusButton: UIButton!
+    @IBOutlet var toProfileButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()

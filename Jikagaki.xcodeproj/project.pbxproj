@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		0F1B591F2A9262C8001DDC53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B591E2A9262C8001DDC53 /* AppDelegate.swift */; };
 		0F1B59212A9262C8001DDC53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B59202A9262C8001DDC53 /* SceneDelegate.swift */; };
-		0F1B59232A9262C8001DDC53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B59222A9262C8001DDC53 /* ViewController.swift */; };
+		0F1B59232A9262C8001DDC53 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B59222A9262C8001DDC53 /* HomeViewController.swift */; };
 		0F1B59262A9262C8001DDC53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1B59242A9262C8001DDC53 /* Main.storyboard */; };
 		0F1B59282A9262CC001DDC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F1B59272A9262CC001DDC53 /* Assets.xcassets */; };
 		0F1B592B2A9262CC001DDC53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1B59292A9262CC001DDC53 /* LaunchScreen.storyboard */; };
 		0F1B59362A9262CC001DDC53 /* JikagakiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B59352A9262CC001DDC53 /* JikagakiTests.swift */; };
 		0F1B59402A9262CC001DDC53 /* JikagakiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B593F2A9262CC001DDC53 /* JikagakiUITests.swift */; };
 		0F1B59422A9262CC001DDC53 /* JikagakiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B59412A9262CC001DDC53 /* JikagakiUITestsLaunchTests.swift */; };
+		0F1B594F2A927805001DDC53 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B594E2A927805001DDC53 /* PlusViewController.swift */; };
+		0F1B59512A927813001DDC53 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B59502A927813001DDC53 /* ProfileViewController.swift */; };
+		0F1B59532A929216001DDC53 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B59522A929216001DDC53 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		0F1B591B2A9262C8001DDC53 /* Jikagaki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jikagaki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1B591E2A9262C8001DDC53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F1B59202A9262C8001DDC53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F1B59222A9262C8001DDC53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F1B59222A9262C8001DDC53 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0F1B59252A9262C8001DDC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F1B59272A9262CC001DDC53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F1B592A2A9262CC001DDC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		0F1B593B2A9262CC001DDC53 /* JikagakiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JikagakiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1B593F2A9262CC001DDC53 /* JikagakiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JikagakiUITests.swift; sourceTree = "<group>"; };
 		0F1B59412A9262CC001DDC53 /* JikagakiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JikagakiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F1B594E2A927805001DDC53 /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
+		0F1B59502A927813001DDC53 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0F1B59522A929216001DDC53 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				0F1B591E2A9262C8001DDC53 /* AppDelegate.swift */,
 				0F1B59202A9262C8001DDC53 /* SceneDelegate.swift */,
-				0F1B59222A9262C8001DDC53 /* ViewController.swift */,
+				0F1B59222A9262C8001DDC53 /* HomeViewController.swift */,
+				0F1B59502A927813001DDC53 /* ProfileViewController.swift */,
+				0F1B59522A929216001DDC53 /* AddViewController.swift */,
+				0F1B594E2A927805001DDC53 /* PlusViewController.swift */,
 				0F1B59242A9262C8001DDC53 /* Main.storyboard */,
 				0F1B59272A9262CC001DDC53 /* Assets.xcassets */,
 				0F1B59292A9262CC001DDC53 /* LaunchScreen.storyboard */,
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F1B59232A9262C8001DDC53 /* ViewController.swift in Sources */,
+				0F1B59232A9262C8001DDC53 /* HomeViewController.swift in Sources */,
 				0F1B591F2A9262C8001DDC53 /* AppDelegate.swift in Sources */,
+				0F1B59532A929216001DDC53 /* AddViewController.swift in Sources */,
+				0F1B59512A927813001DDC53 /* ProfileViewController.swift in Sources */,
+				0F1B594F2A927805001DDC53 /* PlusViewController.swift in Sources */,
 				0F1B59212A9262C8001DDC53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
