@@ -2,20 +2,10 @@
 import UIKit
 import CoreNFC
 
-class AddViewController: UIViewController {
+class AddViewController: UIViewController, NFCNDEFReaderSessionDelegate{
     
     @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var iPhoneImage: UIImageView!
     
-    class PlusViewController: UIViewController, NFCNDEFReaderSessionDelegate {
-        func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {
-            <#code#>
-        }
-        
-        func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) {
-            <#code#>
-        }
-        
         var NFC_session: NFCNDEFReaderSession?
         
         override func viewDidLoad() {
@@ -43,8 +33,16 @@ class AddViewController: UIViewController {
                 }
             }
         }
-        
-        
+    
+    func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {
+        <#code#>
     }
     
+    func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) {
+        <#code#>
+    }
+        
+        
 }
+    
+
