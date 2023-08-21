@@ -9,7 +9,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-    @IBOutlet var toPlusButton: UIButton!
+    @IBOutlet var toFindButton: UIButton!
     @IBOutlet var toProfileButton: UIButton!
 
     override func viewDidLoad() {

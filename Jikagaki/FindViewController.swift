@@ -107,12 +107,7 @@
 //    
 //}
 //
-//            
-//            
-//
-//        
-//    
-//
+
 
 import UIKit
 import CoreNFC

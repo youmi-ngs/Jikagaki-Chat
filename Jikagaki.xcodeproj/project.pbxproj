@@ -19,6 +19,8 @@
 		0F1B59512A927813001DDC53 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B59502A927813001DDC53 /* ProfileViewController.swift */; };
 		0F1B59532A929216001DDC53 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B59522A929216001DDC53 /* FindViewController.swift */; };
 		0F65D2AF2A932FC100087BE4 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F65D2AE2A932FC100087BE4 /* AddViewController.swift */; };
+		0F65D2B22A936C6100087BE4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F65D2B02A936C6100087BE4 /* CollectionViewCell.swift */; };
+		0F65D2B32A936C6100087BE4 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F65D2B12A936C6100087BE4 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		0F1B59502A927813001DDC53 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0F1B59522A929216001DDC53 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
 		0F65D2AE2A932FC100087BE4 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		0F65D2B02A936C6100087BE4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		0F65D2B12A936C6100087BE4 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 				0F1B59502A927813001DDC53 /* ProfileViewController.swift */,
 				0F65D2AE2A932FC100087BE4 /* AddViewController.swift */,
 				0F1B59522A929216001DDC53 /* FindViewController.swift */,
+				0F65D2B02A936C6100087BE4 /* CollectionViewCell.swift */,
+				0F65D2B12A936C6100087BE4 /* CollectionViewCell.xib */,
 				0F1B59242A9262C8001DDC53 /* Main.storyboard */,
 				0F1B59272A9262CC001DDC53 /* Assets.xcassets */,
 				0F1B59292A9262CC001DDC53 /* LaunchScreen.storyboard */,
@@ -242,6 +248,7 @@
 			files = (
 				0F1B592B2A9262CC001DDC53 /* LaunchScreen.storyboard in Resources */,
 				0F1B59282A9262CC001DDC53 /* Assets.xcassets in Resources */,
+				0F65D2B32A936C6100087BE4 /* CollectionViewCell.xib in Resources */,
 				0F1B59262A9262C8001DDC53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +277,7 @@
 				0F1B59232A9262C8001DDC53 /* HomeViewController.swift in Sources */,
 				0F1B591F2A9262C8001DDC53 /* AppDelegate.swift in Sources */,
 				0F1B59532A929216001DDC53 /* FindViewController.swift in Sources */,
+				0F65D2B22A936C6100087BE4 /* CollectionViewCell.swift in Sources */,
 				0F65D2AF2A932FC100087BE4 /* AddViewController.swift in Sources */,
 				0F1B59512A927813001DDC53 /* ProfileViewController.swift in Sources */,
 				0F1B59212A9262C8001DDC53 /* SceneDelegate.swift in Sources */,
