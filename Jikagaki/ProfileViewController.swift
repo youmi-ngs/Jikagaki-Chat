@@ -24,9 +24,6 @@ class ProfileViewController: UIViewController {
         UserDefaults.standard.setValue(text, forKey: "name")
     }
 }
-
-    
-
  
 
 
