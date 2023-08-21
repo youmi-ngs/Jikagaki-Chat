@@ -12,23 +12,22 @@ class ProfileViewController: UIViewController {
 
 
     @IBOutlet weak var userNameTextfield: UITextField!
-    var timer:Timer!
-    var uf=UserDefaults.standard
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if let name = UserDefaults.standard.string(forKey: "name") {
+            userNameTextfield.text = name
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func handleTextChange() {
+        let text = userNameTextfield.text
+        print(userNameTextfield.text ?? "(null)")
+        UserDefaults.standard.setValue(text, forKey: "name")
     }
-    */
-
 }
+
+    
+
+ 
+
+
