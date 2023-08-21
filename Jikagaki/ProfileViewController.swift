@@ -8,8 +8,12 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-    var tinmer:Timer!
-    @IBOutlet weak var nametextfield: UITextField!
+    
+
+
+    @IBOutlet weak var userNameTextfield: UITextField!
+    var timer:Timer!
+    var uf=UserDefaults.standard
     override func viewDidLoad() {
         super.viewDidLoad()
 
