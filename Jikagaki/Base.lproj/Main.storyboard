@@ -196,8 +196,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="O8h-1u-Wmt"/>
-        <segue reference="5ts-rQ-kLV"/>
+        <segue reference="pA1-ZB-f7C"/>
+        <segue reference="fLa-Gd-7gf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chevron.backward" catalog="system" width="97" height="128"/>
