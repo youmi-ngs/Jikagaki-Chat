@@ -4,8 +4,6 @@ import CoreNFC
 
 class AddViewController: UIViewController, NFCNDEFReaderSessionDelegate{
     
-    @IBOutlet weak var label: UILabel!
-    
         var NFC_session: NFCNDEFReaderSession?
         
         override func viewDidLoad() {
@@ -16,7 +14,7 @@ class AddViewController: UIViewController, NFCNDEFReaderSessionDelegate{
                 guard NFCNDEFReaderSession.readingAvailable else {
                     let alertController = UIAlertController(
                         title: "Error",
-                        message: "本端末はMFCに対応していません",
+                        message: "本端末はNFCに対応していません",
                         preferredStyle: .alert
                     )
                     alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))

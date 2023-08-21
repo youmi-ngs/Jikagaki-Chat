@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="861.83206106870227" y="196.47887323943664"/>
         </scene>
-        <!--Plus View Controller-->
+        <!--Add View Controller-->
         <scene sceneID="ulI-GV-1a7">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vBa-QD-5Af" customClass="PlusViewController" customModule="Jikagaki" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vBa-QD-5Af" customClass="AddViewController" customModule="Jikagaki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WeX-MB-gKo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="2191" y="197"/>
         </scene>
-        <!--Add View Controller-->
+        <!--Check View Controller-->
         <scene sceneID="1Ax-zY-0NH">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="54f-Oh-6pR" customClass="AddViewController" customModule="Jikagaki" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="54f-Oh-6pR" customClass="CheckViewController" customModule="Jikagaki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T6u-Gb-OSl">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -134,7 +134,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="8cV-0M-KB1"/>
                     <connections>
-                        <outlet property="label" destination="8BB-D5-HSC" id="HAW-Dm-5uX"/>
+                        <outlet property="label" destination="8BB-D5-HSC" id="ESm-5i-fIf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uIH-zy-i5P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
