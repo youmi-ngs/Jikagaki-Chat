@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="861.83206106870227" y="196.47887323943664"/>
         </scene>
-        <!--Add View Controller-->
+        <!--Find View Controller-->
         <scene sceneID="ulI-GV-1a7">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vBa-QD-5Af" customClass="AddViewController" customModule="Jikagaki" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vBa-QD-5Af" customClass="FindViewController" customModule="Jikagaki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WeX-MB-gKo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,9 +87,21 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HuP-3a-uE9">
+                                <rect key="frame" x="165.66666666666666" y="408.66666666666669" width="62" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Start"/>
+                                <connections>
+                                    <action selector="NFCReadButtonPressed:" destination="vBa-QD-5Af" eventType="touchUpInside" id="Ls9-Er-EBX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kML-kL-5AA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HuP-3a-uE9" firstAttribute="centerX" secondItem="WeX-MB-gKo" secondAttribute="centerX" id="KK3-Lc-AGD"/>
+                            <constraint firstItem="HuP-3a-uE9" firstAttribute="centerY" secondItem="WeX-MB-gKo" secondAttribute="centerY" id="MSP-8y-yDG"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iKL-dA-XON"/>
                 </viewController>
@@ -97,10 +109,10 @@
             </objects>
             <point key="canvasLocation" x="2191" y="197"/>
         </scene>
-        <!--Check View Controller-->
+        <!--Add View Controller-->
         <scene sceneID="1Ax-zY-0NH">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="54f-Oh-6pR" customClass="CheckViewController" customModule="Jikagaki" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="54f-Oh-6pR" customClass="AddViewController" customModule="Jikagaki" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T6u-Gb-OSl">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
