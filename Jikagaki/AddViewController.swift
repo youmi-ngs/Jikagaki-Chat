@@ -2,9 +2,8 @@
 import UIKit
 import CoreNFC
 
-class AddViewController: UIViewController {
-    
-    class PlusViewController: UIViewController, NFCNDEFReaderSessionDelegate {
+class AddViewController: UIViewController,
+    NFCNDEFReaderSessionDelegate {
         func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {
             print("error:\(error.localizedDescription)")
         }
@@ -51,5 +50,5 @@ class AddViewController: UIViewController {
             
         }
         
-    }
+    
 
