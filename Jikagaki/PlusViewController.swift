@@ -8,12 +8,12 @@
 import UIKit
 import CoreNFC
 class PlusViewController: UIViewController, NFCNDEFReaderSessionDelegate {
-    func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {
-        <#code#>
-    }
+   func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {
+       <#code#>
+   }
     
     func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) {
-        <#code#>
+       <#code#>
     }
     
     var NFC_session: NFCNDEFReaderSession?
