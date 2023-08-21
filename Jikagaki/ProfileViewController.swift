@@ -8,15 +8,9 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-    
-<<<<<<< HEAD
-    @IBOutlet var userNameLabel: UILabel!
-    
-=======
->>>>>>> 68a416db1973fe4958388913845b0b8dac9630be
-
 
     @IBOutlet weak var userNameTextfield: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         if let name = UserDefaults.standard.string(forKey: "name") {

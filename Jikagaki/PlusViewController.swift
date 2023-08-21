@@ -8,6 +8,9 @@
 import UIKit
 
 class PlusViewController: UIViewController {
+    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var iPhoneImage: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
