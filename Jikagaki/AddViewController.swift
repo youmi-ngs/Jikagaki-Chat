@@ -45,7 +45,7 @@ class AddViewController: UIViewController,
                 session.begin()
             }
         }
-        if let record = messages.first?.records.first{
+        if let record = .first?.records.first{
                   switch record.typeNameFormat{
                   case .absoluteURI:
                       print("absoluteURI")
