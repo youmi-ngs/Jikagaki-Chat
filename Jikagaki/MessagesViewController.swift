@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class MessagesViewController: UIViewController {
     
     @IBOutlet var toFindButton: UIButton!
     @IBOutlet var toProfileButton: UIButton!
